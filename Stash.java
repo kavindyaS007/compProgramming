@@ -1,4 +1,8 @@
 public class Stash{
+	String stashId;
+	String stashName;
+	String stashMsg;
+
 	public String getStashId(){
 		return stashId;
 	}
@@ -28,4 +32,5 @@ public class Stash{
 	public void clearAllStash(){
 		//clearAllStash
 	}
+
 }
